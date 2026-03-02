@@ -4,7 +4,7 @@ import os
 client = OpenAI(
     base_url="https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1",
     api_key="any value",
-    default_headers={"x-api-key": "YOUR_GATEWAY_KEY_HERE"}   # CHANGE THIS
+    default_headers={"x-api-key": "NI1Ma8b7myE4oYPvQyx3"} 
 )
 
 def summarize_memory(history):
